@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SaxonHE10Net31XQuery": {
+      "commandName": "Project",
+      "commandLineArgs": "-t\r\n-qs:\"<items>{comment { current-dateTime() }, random-number-generator(current-dateTime())?permute(1 to 5)!<item>item {.}</item>}</items>\"\r\n!indent=1"
+    }
+  }
+}

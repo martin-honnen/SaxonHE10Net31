@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SaxonHE10Net6Xslt": {
+      "commandName": "Project",
+      "commandLineArgs": "-t\r\n-it\r\n-xsl:C:\\Users\\marti\\OneDrive\\Documents\\xslt\\processorTestHTML5Xslt3InitialTempl.xsl"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+<Project Sdk="IKVM.NET.Sdk/8.2.2-prerelease0553">
+    <PropertyGroup>
+        <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
+    </PropertyGroup>
+    <!--<ItemGroup>
+      <Compile Remove="net\sf\saxon\dotnet\DotNetCollationFactory.java" />
+      <Compile Remove="net\sf\saxon\dotnet\DotNetComparator.java" />
+      <Compile Remove="net\sf\saxon\dotnet\DotNetDocumentWrapper.java" />
+      <Compile Remove="net\sf\saxon\dotnet\DotNetDomBuilder.java" />
+      <Compile Remove="net\sf\saxon\dotnet\DotNetDomDestination.java" />
+      <Compile Remove="net\sf\saxon\dotnet\DotNetEnumerableCollection.java" />
+      <Compile Remove="net\sf\saxon\dotnet\DotNetExternalObjectType.java" />
+      <Compile Remove="net\sf\saxon\dotnet\DotNetInputStream.java" />
+      <Compile Remove="net\sf\saxon\dotnet\DotNetIterator.java" />
+      <Compile Remove="net\sf\saxon\dotnet\DotNetNodeWrapper.java" />
+      <Compile Remove="net\sf\saxon\dotnet\DotNetObjectModel.java" />
+      <Compile Remove="net\sf\saxon\dotnet\DotNetObjectValue.java" />
+      <Compile Remove="net\sf\saxon\dotnet\DotNetOutputStream.java" />
+      <Compile Remove="net\sf\saxon\dotnet\DotNetPlatform.java" />
+      <Compile Remove="net\sf\saxon\dotnet\DotNetPullProvider.java" />
+      <Compile Remove="net\sf\saxon\dotnet\DotNetReader.java" />
+      <Compile Remove="net\sf\saxon\dotnet\DotNetReceiver.java" />
+      <Compile Remove="net\sf\saxon\dotnet\DotNetRegexIterator.java" />
+      <Compile Remove="net\sf\saxon\dotnet\DotNetRegularExpression.java" />
+      <Compile Remove="net\sf\saxon\dotnet\DotNetStandardModuleURIResolver.java" />
+      <Compile Remove="net\sf\saxon\dotnet\DotNetTokenIterator.java" />
+      <Compile Remove="net\sf\saxon\dotnet\DotNetURIResolver.java" />
+      <Compile Remove="net\sf\saxon\dotnet\DotNetWriter.java" />
+    </ItemGroup>-->
+
+	<ItemGroup>
+		<PackageReference Include="IKVM.Maven.Sdk" Version="1.0.1" />
+		<MavenReference Include="net.sf.saxon:Saxon-HE" Version="10.8" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="net\sf\saxon\dotnet\DotNetCollationFactory.java" />
+	  <None Include="net\sf\saxon\dotnet\DotNetComparator.java" />
+	  <None Include="net\sf\saxon\dotnet\DotNetDocumentWrapper.java" />
+	  <None Include="net\sf\saxon\dotnet\DotNetDomBuilder.java" />
+	  <None Include="net\sf\saxon\dotnet\DotNetDomDestination.java" />
+	  <None Include="net\sf\saxon\dotnet\DotNetEnumerableCollection.java" />
+	  <None Include="net\sf\saxon\dotnet\DotNetExternalObjectType.java" />
+	  <None Include="net\sf\saxon\dotnet\DotNetInputStream.java" />
+	  <None Include="net\sf\saxon\dotnet\DotNetIterator.java" />
+	  <None Include="net\sf\saxon\dotnet\DotNetNodeWrapper.java" />
+	  <None Include="net\sf\saxon\dotnet\DotNetObjectModel.java" />
+	  <None Include="net\sf\saxon\dotnet\DotNetObjectValue.java" />
+	  <None Include="net\sf\saxon\dotnet\DotNetOutputStream.java" />
+	  <None Include="net\sf\saxon\dotnet\DotNetPlatform.java" />
+	  <None Include="net\sf\saxon\dotnet\DotNetPullProvider.java" />
+	  <None Include="net\sf\saxon\dotnet\DotNetReader.java" />
+	  <None Include="net\sf\saxon\dotnet\DotNetReceiver.java" />
+	  <None Include="net\sf\saxon\dotnet\DotNetRegexIterator.java" />
+	  <None Include="net\sf\saxon\dotnet\DotNetRegularExpression.java" />
+	  <None Include="net\sf\saxon\dotnet\DotNetStandardModuleURIResolver.java" />
+	  <None Include="net\sf\saxon\dotnet\DotNetTokenIterator.java" />
+	  <None Include="net\sf\saxon\dotnet\DotNetURIResolver.java" />
+	  <None Include="net\sf\saxon\dotnet\DotNetWriter.java" />
+	</ItemGroup>
+	
+</Project>
