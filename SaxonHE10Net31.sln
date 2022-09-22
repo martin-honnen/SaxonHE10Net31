@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaxonHE10Net31Xslt", "Saxon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaxonHE10Net31XQuery", "SaxonHE10Net31XQuery\SaxonHE10Net31XQuery.csproj", "{CF8A4E2C-7363-4E4E-96A1-668FB6F8C204}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaxonHE10Net31Samples", "SaxonHE10Net31Samples\SaxonHE10Net31Samples.csproj", "{64BF151A-EE07-4D32-A308-1FEFC26E2731}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{CF8A4E2C-7363-4E4E-96A1-668FB6F8C204}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF8A4E2C-7363-4E4E-96A1-668FB6F8C204}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF8A4E2C-7363-4E4E-96A1-668FB6F8C204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64BF151A-EE07-4D32-A308-1FEFC26E2731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64BF151A-EE07-4D32-A308-1FEFC26E2731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64BF151A-EE07-4D32-A308-1FEFC26E2731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64BF151A-EE07-4D32-A308-1FEFC26E2731}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

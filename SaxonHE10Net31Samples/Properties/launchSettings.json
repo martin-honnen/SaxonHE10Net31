@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SaxonHE10Net31Samples": {
+      "commandName": "Project",
+      "commandLineArgs": "-ask:no"
+    }
+  }
+}
