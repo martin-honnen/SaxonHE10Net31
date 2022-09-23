@@ -6,7 +6,7 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Saxon HE 10.8 .NET 3.1 Core API</Title>
-    <Version>10.8.0-alpha4</Version>
+    <Version>10.8.0-alpha5</Version>
     <Authors>Martin Honnen</Authors>
     <Description>This is a port of the Saxon 10.8 .NET framework API to .NET Core 3.1.</Description>
     <Copyright>Copyright (c) 2022 Martin Honnen</Copyright>
@@ -20,8 +20,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SaxonHE10Net31\SaxonHE10Net31.msbuildproj" />
+	<PackageReference Include="IKVM.Maven.Sdk" Version="1.0.1" />
+	<MavenReference Include="net.sf.saxon:Saxon-HE" Version="10.8" />
   </ItemGroup>
+	
+  <ItemGroup>
+    <PackageReference Include="SaxonHE10Net31" Version="10.8.0-alpha5" />
+  </ItemGroup>
+
+  <!--<ItemGroup>
+    <ProjectReference Include="..\SaxonHE10Net31\SaxonHE10Net31.msbuildproj" />
+  </ItemGroup>-->
 
   <ItemGroup>
     <None Update="README.md">

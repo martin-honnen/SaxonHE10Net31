@@ -3,12 +3,11 @@
         <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
         <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
         <Title>IKVM cross-compiled .NET 3.1 class library of Saxon HE 10.8</Title>
-        <Version>10.8.0-alpha4</Version>
+        <Version>10.8.0-alpha5</Version>
         <Authors>Martin Honnen</Authors>
         <Description>This is the result of IKVM cross-compiling the Saxon HE 10.8 Java software to .NET 3.1 Core.</Description>
         <Copyright>Copyright (c) 2022 Martin Honnen</Copyright>
         <PackageReleaseNotes>This is the initial alpha release.</PackageReleaseNotes>
-        <PackAsTool>True</PackAsTool>
         <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
         <PackageTags>XSLT;XSLT-3.0;XQuery;XQuery-3.1;XML;XPath;XPath-3.1;JSON;transformation</PackageTags>
         <PackageProjectUrl>https://github.com/martin-honnen/SaxonHE10Net31/tree/master/SaxonHE10Net31</PackageProjectUrl>
