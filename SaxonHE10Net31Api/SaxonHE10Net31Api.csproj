@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Saxon HE 10.8 .NET 3.1 Core API</Title>
+    <Version>10.8.0-alpha1</Version>
+    <Authors>Martin Honnen</Authors>
+    <Description>This is a port of the Saxon 10.8 .NET framework API to .NET Core 3.1.</Description>
+    <Copyright>Copyright (c) 2022 Martin Honnen</Copyright>
+    <PackageTags>XSLT;XSLT-3.0;XQuery;XQuery-3.1;XPath;XPath-3.1;XML;JSON;Transformation</PackageTags>
+    <PackageReleaseNotes>This is the initial alpha release.</PackageReleaseNotes>
+    <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
