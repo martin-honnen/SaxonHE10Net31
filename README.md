@@ -18,3 +18,7 @@ that using Saxon HE is possible with .NET 3.1 core.
 As with all projects based on Saxon HE, this work is licensed under MPL 2.
 
 Feel free to use it under this conditions and report back whether you run into mayor problems or could smoothly use it in .NET core for XSLT 3.0, XQuery 3.1 and XPath 3.1.
+
+Understand that this is work in progress and kind of experimental, I don't have access to a complete test suite of unit tests to rigorously test this, 
+I nevertheless feel it can be useful for folks to at least know about this option to run XSLT 3.0 and/or XQuery 3.1 and/or XPath 3.1 with .NET 3.1 Core,
+without depending on the so far commercial only SaxonCS from Saxonica.
