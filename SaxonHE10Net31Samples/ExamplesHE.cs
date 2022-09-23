@@ -154,6 +154,9 @@ namespace SaxonHE
             }
 
             Boolean found = false;
+
+            Console.WriteLine($"Examples run with .NET {Environment.Version} using {new Processor().ProductTitle}");
+
             foreach (Example ex in examples)
             {
                 if (test == "all" || test == ex.testName)
