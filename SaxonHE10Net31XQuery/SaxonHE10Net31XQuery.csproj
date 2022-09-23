@@ -5,7 +5,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>.NET 3.1 command line app/dotnet tool to run XQuery 3.1 with Saxon 10.8 HE under .NET Core</Title>
-    <Version>10.8.0-alpha4</Version>
+    <Version>10.8.0-alpha5</Version>
     <Authors>Martin Honnen</Authors>
     <Copyright>Copyright (c) 2022 Martin Honnen</Copyright>
     <PackageReadmeFile>README.md</PackageReadmeFile>

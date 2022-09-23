@@ -6,8 +6,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SaxonHE10Net31Api\SaxonHE10Net31Api.csproj" />
+    <PackageReference Include="SaxonHE10Net31Api" Version="10.8.0-alpha5" />
   </ItemGroup>
+
+  <ItemGroup>
+	<PackageReference Include="IKVM.Maven.Sdk" Version="1.0.1" />
+	<MavenReference Include="net.sf.saxon:Saxon-HE" Version="10.8" />
+  </ItemGroup>
+
+  <!--<ItemGroup>
+    <ProjectReference Include="..\SaxonHE10Net31Api\SaxonHE10Net31Api.csproj" />
+  </ItemGroup>-->
 
   <ItemGroup>
     <None Update="samples\data\books-invalid.xml">
