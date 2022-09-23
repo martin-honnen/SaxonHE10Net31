@@ -1,9 +1,9 @@
-<Project Sdk="IKVM.NET.Sdk/8.2.2-prerelease0553">
+﻿<Project Sdk="IKVM.NET.Sdk/8.2.2-prerelease0553">
     <PropertyGroup>
         <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
         <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
         <Title>IKVM cross-compiled .NET 3.1 class library of Saxon HE 10.8</Title>
-        <Version>10.8.0-alpha1</Version>
+        <Version>10.8.0-alpha3</Version>
         <Authors>Martin Honnen</Authors>
         <Description>This is the result of IKVM cross-compiling the Saxon HE 10.8 Java software to .NET 3.1 Core.</Description>
         <Copyright>Copyright (c) 2022 Martin Honnen</Copyright>
@@ -11,7 +11,6 @@
         <PackAsTool>True</PackAsTool>
         <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
         <PackageTags>XSLT;XSLT-3.0;XQuery;XQuery-3.1;XML;XPath;XPath-3.1;JSON;transformation</PackageTags>
-        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
 	<ItemGroup>
