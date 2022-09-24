@@ -3,7 +3,7 @@
         <TargetFrameworks>netcoreapp3.1</TargetFrameworks>
         <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
         <Title>IKVM cross-compiled .NET 3.1 class library of Saxon HE 10.8</Title>
-        <Version>10.8.0-alpha5</Version>
+        <Version>10.8.0-alpha6</Version>
         <Authors>Martin Honnen</Authors>
         <Description>This is the result of IKVM cross-compiling the Saxon HE 10.8 Java software to .NET 3.1 Core.</Description>
         <Copyright>Copyright (c) 2022 Martin Honnen</Copyright>
@@ -13,6 +13,9 @@
         <PackageProjectUrl>https://github.com/martin-honnen/SaxonHE10Net31/tree/master/SaxonHE10Net31</PackageProjectUrl>
         <RepositoryUrl>https://github.com/martin-honnen/SaxonHE10Net31/tree/master/SaxonHE10Net31</RepositoryUrl>
     </PropertyGroup>
+    <ItemGroup>
+      <Compile Remove="net\sf\saxon\Version.java" />
+    </ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="IKVM.Maven.Sdk" Version="1.0.1" />
@@ -43,6 +46,7 @@
 	  <None Include="net\sf\saxon\dotnet\DotNetTokenIterator.java" />
 	  <None Include="net\sf\saxon\dotnet\DotNetURIResolver.java" />
 	  <None Include="net\sf\saxon\dotnet\DotNetWriter.java" />
+	  <None Include="net\sf\saxon\Version.java" />
 	</ItemGroup>
 
 	<ItemGroup>

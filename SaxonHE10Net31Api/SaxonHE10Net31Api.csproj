@@ -6,7 +6,7 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Saxon HE 10.8 .NET 3.1 Core API</Title>
-    <Version>10.8.0-alpha5</Version>
+    <Version>10.8.0-alpha6</Version>
     <Authors>Martin Honnen</Authors>
     <Description>This is a port of the Saxon 10.8 .NET framework API to .NET Core 3.1.</Description>
     <Copyright>Copyright (c) 2022 Martin Honnen</Copyright>
@@ -25,7 +25,7 @@
   </ItemGroup>
 	
   <ItemGroup>
-    <PackageReference Include="SaxonHE10Net31" Version="10.8.0-alpha5" />
+    <PackageReference Include="SaxonHE10Net31" Version="10.8.0-alpha6" />
   </ItemGroup>
 
   <!--<ItemGroup>
