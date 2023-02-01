@@ -5,12 +5,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>.NET 3.1 command line app/dotnet tool to run XQuery 3.1 with Saxon 10.8 HE under .NET Core</Title>
-    <Version>10.8.0-alpha6</Version>
+    <Version>10.8.0.1</Version>
     <Authors>Martin Honnen</Authors>
-    <Copyright>Copyright (c) 2022 Martin Honnen</Copyright>
+    <Copyright>Copyright (c) 2023 Martin Honnen</Copyright>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>XQuery;XQuery-3.1;XML;JSON;XPath;XPath-3.1</PackageTags>
-    <PackageReleaseNotes>This is the initial alpha release.</PackageReleaseNotes>
+    <PackageReleaseNotes>This is the initial release.</PackageReleaseNotes>
     <PackAsTool>True</PackAsTool>
     <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>

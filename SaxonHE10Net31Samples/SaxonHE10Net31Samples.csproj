@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-	<PackageReference Include="IKVM.Maven.Sdk" Version="1.0.1" />
-	<PackageReference Include="SaxonHE10Net31Api" Version="10.8.0-alpha6" />
+	<PackageReference Include="IKVM.Maven.Sdk" Version="1.2.0" />
+	<PackageReference Include="SaxonHE10Net31Api" Version="10.8.0.1" />
 	<MavenReference Include="net.sf.saxon:Saxon-HE" Version="10.8" />
   </ItemGroup>
 

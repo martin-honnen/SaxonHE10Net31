@@ -5,11 +5,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>.NET 3.1 Core command line app/dotnet tool to run XSLT 3.0 using Saxon 10.8 HE</Title>
-    <Version>10.8.0-alpha6</Version>
+    <Version>10.8.0.1</Version>
     <Authors>Martin Honnen</Authors>
     <Description>This is a .NET Core 3.1 command line app/dotnet tool to run XSLT 3.0 with Saxon 10.8 HE.</Description>
-    <Copyright>Copyright (c) 2022 Martin Honnen</Copyright>
-    <PackageReleaseNotes>This is the initial alpha release.</PackageReleaseNotes>
+    <Copyright>Copyright (c) 2023 Martin Honnen</Copyright>
+    <PackageReleaseNotes>This is the alpha release.</PackageReleaseNotes>
     <PackAsTool>True</PackAsTool>
     <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
