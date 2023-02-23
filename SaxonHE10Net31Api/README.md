@@ -1,6 +1,6 @@
-﻿# Saxon HE 10.8 .NET Core 3.1 API
+﻿# Saxon HE 10.9 .NET Core 3.1 API
 
-This is part of the result of my experiments with IKVM and IKVM.NET.Sdk to cross compile the Java version of Saxon 10.8 HE to .NET Core 3.1.
+This is part of the result of my experiments with IKVM and IKVM.NET.Sdk to cross compile the Java version of Saxon 10.9 HE to .NET Core 3.1.
 
 While using the original sources from the HE product of Saxonica, this is simply my personal, experimental work and the software is in
 no way an officially supported, tested or approved product of Saxonica.

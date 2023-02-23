@@ -488,7 +488,8 @@ public class DotNetPlatform implements Platform {
     public void setDefaultSAXParserFactory(Configuration config) {
         String editionCode = "he";
 
-        System.setProperty("javax.xml.parsers.SAXParserFactory", "org.apache.xerces.jaxp.SAXParserFactoryImpl, saxon-"+editionCode+"-"+ Version.getProductVersion() +", Version="+ Version.getProductVersion()+", Culture=neutral, PublicKeyToken=e1fdd002d5083fe6");
+        System.setProperty("javax.xml.parsers.SAXParserFactory", "org.apache.xerces.jaxp.SAXParserFactoryImpl, saxon-"+editionCode+"-"+
+                Version.getProductVersion() +", Version="+ Version.getProductVersion()+".0.0, Culture=neutral, PublicKeyToken=e1fdd002d5083fe6");
     }
 
     @Override
@@ -509,21 +510,21 @@ public class DotNetPlatform implements Platform {
      * @return the class loader object
      * @since 9.6.0.3
      */
-    //@Override
-    //public ClassLoader makeGeneratedClassLoader(Configuration config, Class thisClass){
-    //    ClassLoader parentClassLoader = config.getDynamicLoader().getClassLoader();
-    //    if (parentClassLoader == null) {
-    //        parentClassLoader = thisClass.getClassLoader();
-     //   }
-
-     //   if (parentClassLoader == null) {
-     //       parentClassLoader = Thread.currentThread().getContextClassLoader();
-     //   }
-     //    return new GeneratedClassLoader(parentClassLoader);
-
-    //}
-
-
+//    @Override
+//    public ClassLoader makeGeneratedClassLoader(Configuration config, Class thisClass){
+//        ClassLoader parentClassLoader = config.getDynamicLoader().getClassLoader();
+//        if (parentClassLoader == null) {
+//            parentClassLoader = thisClass.getClassLoader();
+//        }
+//
+//        if (parentClassLoader == null) {
+//            parentClassLoader = Thread.currentThread().getContextClassLoader();
+//        }
+//         return new GeneratedClassLoader(parentClassLoader);
+//
+//    }
+//
+//
 //#endif
 
 

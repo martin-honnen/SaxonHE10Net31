@@ -870,7 +870,8 @@ namespace Saxon.Api
             JDotNetReceiver dnr = new JDotNetReceiver(writer);
 			dnr.setPipelineConfiguration (pipe);
             dnr.setCloseAfterUse(closeAfterUse);
-            return params1.makeSequenceNormalizer(dnr);
+            net.sf.saxon.@event.NamespaceDifferencer delta = new net.sf.saxon.@event.NamespaceDifferencer(dnr, params1.getProperties());
+            return params1.makeSequenceNormalizer(delta);
         }
 
         /// <summary>

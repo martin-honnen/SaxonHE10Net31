@@ -1,6 +1,6 @@
-﻿# .NET Core 3.1 command app/dotnet tool to run XSLT 3.0 with IKVM cross-compiled Saxon HE 10.8 from the command line
+﻿# .NET Core 3.1 command app/dotnet tool to run XSLT 3.0 with IKVM cross-compiled Saxon HE 10.9 from the command line
 
-This is part of the result of my experiments with IKVM and IKVM.NET.Sdk to cross compile the Java version of Saxon 10.8 HE to .NET Core 3.1.
+This is part of the result of my experiments with IKVM and IKVM.NET.Sdk to cross compile the Java version of Saxon 10.9 HE to .NET Core 3.1.
 
 While using the original sources from the HE product of Saxonica, this is simply my personal, experimental work and the software is in
 no way an officially supported, tested or approved product of Saxonica.
