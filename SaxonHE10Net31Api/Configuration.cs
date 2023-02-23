@@ -718,8 +718,7 @@ namespace Saxon.Api
         /// representing the properties that can be requested.</typeparam>
         /// <param name="feature">the required property. </param>
         /// <returns>the value of the property</returns>
-        public T GetProperty<T>(Feature<T> feature)
-        {
+        public T GetProperty<T>(Feature<T> feature) {
             return (T)processor.getConfigurationProperty(feature.JFeature);
         }
 

@@ -242,7 +242,7 @@ namespace Saxon.Api
         /// check is performed only when the decimal format is used.
         /// </remarks>
         /// <param name="format">The name of the decimal format whose property is to be set.
-        ///  Supply null to set a property of the default (unnamed) decimal format.
+        ///  It is not possible to set the properties for the default (unnamed) decimal format.
 		///  This correponds to a name used in the third argument of <c>format-number()</c>.</param>
         /// <param name="property">The name of the property to set: one of
         ///   "decimal-separator", "grouping-separator", "infinity", "NaN",
@@ -253,6 +253,9 @@ namespace Saxon.Api
         public void SetDecimalFormatProperty(QName format, String property, String value) {
             try
             {
+                if (format == null) {
+                    throw new StaticError(new JSaxonApiException("format argument cannot be null"));
+                }
                 compiler.setDecimalFormatProperty(format.UnderlyingQName(), property, value);
             }
             catch (JSaxonApiException e) {
