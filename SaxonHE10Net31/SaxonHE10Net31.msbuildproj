@@ -1,13 +1,13 @@
-﻿<Project Sdk="IKVM.NET.Sdk/8.8.0">
+﻿<Project Sdk="IKVM.NET.Sdk/8.9.1">
     <PropertyGroup>
         <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
         <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
         <Title>IKVM cross-compiled .NET 6/8 class library of Saxon HE 10.9</Title>
-        <Version>10.9.9</Version>
+        <Version>10.9.10</Version>
         <Authors>Martin Honnen</Authors>
         <Description>This is the result of IKVM cross-compiling the Saxon HE 10.9 Java software to .NET 6 and .NET 8.</Description>
         <Copyright>Copyright (c) 2024 Martin Honnen</Copyright>
-        <PackageReleaseNotes>This is the initial release dual packaged for .NET 6 and .NET 8.</PackageReleaseNotes>
+        <PackageReleaseNotes>This is the initial release dual packaged for .NET 6 and .NET 8 with the new IKVM 8.9.1/Maven 1.7.1</PackageReleaseNotes>
         <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
         <PackageTags>XSLT;XSLT-3.0;XQuery;XQuery-3.1;XML;XPath;XPath-3.1;JSON;transformation</PackageTags>
         <PackageProjectUrl>https://github.com/martin-honnen/SaxonHE10Net31/tree/master/SaxonHE10Net31</PackageProjectUrl>
@@ -24,7 +24,7 @@
     </ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="IKVM.Maven.Sdk" Version="1.6.9" />
+		<PackageReference Include="IKVM.Maven.Sdk" Version="1.7.1" />
 		<MavenReference Include="net.sf.saxon:Saxon-HE" Version="10.9" />
 	</ItemGroup>
 

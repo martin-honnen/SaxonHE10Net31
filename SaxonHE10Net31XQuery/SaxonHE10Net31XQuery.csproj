@@ -5,12 +5,12 @@
     <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>.NET 6/8 command line app/dotnet tool to run XQuery 3.1 with Saxon 10.9 HE under .NET 6 or .NET 8</Title>
-    <Version>10.9.9</Version>
+    <Version>10.9.10</Version>
     <Authors>Martin Honnen</Authors>
     <Copyright>Copyright (c) 2024 Martin Honnen</Copyright>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>XQuery;XQuery-3.1;XML;JSON;XPath;XPath-3.1</PackageTags>
-    <PackageReleaseNotes>This is the initial release of a dual package for .NET 6 and .NET 8.</PackageReleaseNotes>
+    <PackageReleaseNotes>This is the initial release of a dual package for .NET 6 and .NET 8 with the new IKVM 8.9.1/Maven 1.7.1</PackageReleaseNotes>
     <PackAsTool>True</PackAsTool>
     <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>

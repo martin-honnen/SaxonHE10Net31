@@ -6,12 +6,12 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Saxon HE 10.9 .NET 8  API</Title>
-    <Version>10.9.9</Version>
+    <Version>10.9.10</Version>
     <Authors>Martin Honnen</Authors>
     <Description>This is a port of the Saxon 10.9 .NET framework API to NET 6 and .NET 8.</Description>
     <Copyright>Copyright (c) 2024 Martin Honnen</Copyright>
     <PackageTags>XSLT;XSLT-3.0;XQuery;XQuery-3.1;XPath;XPath-3.1;XML;JSON;Transformation</PackageTags>
-    <PackageReleaseNotes>This is the initial release of a dual package for .NET 6 and .NET 8.</PackageReleaseNotes>
+    <PackageReleaseNotes>This is the initial release of a dual package for .NET 6 and .NET 8 with the new IKVM 8.9.1/Maven 1.7.1</PackageReleaseNotes>
     <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -20,7 +20,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-	  <PackageReference Include="IKVM.Maven.Sdk" Version="1.6.9" />
+	  <PackageReference Include="IKVM.Maven.Sdk" Version="1.7.1" />
 	  <MavenReference Include="net.sf.saxon:Saxon-HE" Version="10.9" />
   </ItemGroup>
 	
