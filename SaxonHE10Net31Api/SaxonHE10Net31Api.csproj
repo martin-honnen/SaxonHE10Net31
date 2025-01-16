@@ -1,17 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Title>Saxon HE 10.9 .NET 6/8  API</Title>
-    <Version>10.9.11</Version>
+    <Title>Saxon HE 10.9 .NET 8/9  API</Title>
+    <Version>10.9.12</Version>
     <Authors>Martin Honnen</Authors>
-    <Description>This is a port of the Saxon 10.9 .NET framework API to NET 6 and .NET 8.</Description>
-    <Copyright>Copyright (c) 2024 Martin Honnen</Copyright>
+    <Description>This is a port of the Saxon 10.9 .NET framework API to NET 8 and .NET 9.</Description>
+    <Copyright>Copyright (c) 2025 Martin Honnen</Copyright>
     <PackageTags>XSLT;XSLT-3.0;XQuery;XQuery-3.1;XPath;XPath-3.1;XML;JSON;Transformation</PackageTags>
-    <PackageReleaseNotes>This is the initial release of a dual package for .NET 6 and .NET 8 with the new IKVM 8.10.1/Maven 1.8.0 using the latest build 422 of the Java 8/1.8 JDK</PackageReleaseNotes>
+    <PackageReleaseNotes>This is the initial release of a dual package for .NET 8 and .NET 9 with the new IKVM 8.10.3/Maven 1.8.2 using the latest build 422 of the Java 8/1.8 JDK</PackageReleaseNotes>
     <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -20,7 +20,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-	  <PackageReference Include="IKVM.Maven.Sdk" Version="1.8.0" />
+	  <PackageReference Include="IKVM.Maven.Sdk" Version="1.8.2" />
 	  <MavenReference Include="net.sf.saxon:Saxon-HE" Version="10.9" />
   </ItemGroup>
 	
