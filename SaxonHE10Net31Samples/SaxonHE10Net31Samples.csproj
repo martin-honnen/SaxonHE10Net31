@@ -2,12 +2,12 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
   </PropertyGroup>
 
   <ItemGroup>
-	<PackageReference Include="IKVM.Maven.Sdk" Version="1.4.1" />
-	<PackageReference Include="SaxonHE10Net31Api" Version="10.9.0.1" />
+	<PackageReference Include="IKVM.Maven.Sdk" Version="1.9.3" />
+	<PackageReference Include="SaxonHE10Net31Api" Version="10.9.14" />
 	<MavenReference Include="net.sf.saxon:Saxon-HE" Version="10.9" />
   </ItemGroup>
 

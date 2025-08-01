@@ -1,39 +1,39 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
     <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Title>Saxon HE 10.9 .NET 3.1 Core API</Title>
-    <Version>10.9.0.1</Version>
+    <Title>Saxon HE 10.9 .NET 8/9  API</Title>
+    <Version>10.9.14</Version>
     <Authors>Martin Honnen</Authors>
-    <Description>This is a port of the Saxon 10.9 .NET framework API to .NET Core 3.1.</Description>
-    <Copyright>Copyright (c) 2022 Martin Honnen</Copyright>
+    <Description>This is a port of the Saxon 10.9 .NET framework API to NET 8 and .NET 9.</Description>
+    <Copyright>Copyright (c) 2025 Martin Honnen</Copyright>
     <PackageTags>XSLT;XSLT-3.0;XQuery;XQuery-3.1;XPath;XPath-3.1;XML;JSON;Transformation</PackageTags>
-    <PackageReleaseNotes>This is the initial release.</PackageReleaseNotes>
+    <PackageReleaseNotes>This is the initial release of a dual package for .NET 8 and .NET 9 with the new IKVM 8.12.0/Maven 1.9.3 using the latest build 452-b09 of the Java 8/1.8 JDK</PackageReleaseNotes>
     <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-	<PackageProjectUrl>https://github.com/martin-honnen/SaxonHE10Net31/tree/master/SaxonHE10Net31Api</PackageProjectUrl>
-	<RepositoryUrl>https://github.com/martin-honnen/SaxonHE10Net31/tree/master/SaxonHE10Net31Api</RepositoryUrl>
+	  <PackageProjectUrl>https://github.com/martin-honnen/SaxonHE10Net31/tree/master/SaxonHE10Net31Api</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/martin-honnen/SaxonHE10Net31/tree/master/SaxonHE10Net31Api</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
-	<PackageReference Include="IKVM.Maven.Sdk" Version="1.4.1" />
-	<MavenReference Include="net.sf.saxon:Saxon-HE" Version="10.9" />
+	  <PackageReference Include="IKVM.Maven.Sdk" Version="1.9.3" />
+	  <MavenReference Include="net.sf.saxon:Saxon-HE" Version="10.9" />
   </ItemGroup>
 	
-  <ItemGroup>
-    <PackageReference Include="SaxonHE10Net31" Version="10.9.0.0" />
-  </ItemGroup>
-
   <!--<ItemGroup>
-    <ProjectReference Include="..\SaxonHE10Net31\SaxonHE10Net31.msbuildproj" />
+    <PackageReference Include="SaxonHE10Net31" Version="10.9.8.8" />
   </ItemGroup>-->
 
   <ItemGroup>
-    <None Update="README.md">
+    <ProjectReference Include="..\SaxonHE10Net31\SaxonHE10Net31.msbuildproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
