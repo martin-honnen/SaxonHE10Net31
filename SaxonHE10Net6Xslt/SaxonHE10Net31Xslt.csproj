@@ -2,14 +2,14 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+    <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Title>.NET 8/9 command line app/dotnet tool to run XSLT 3.0 using Saxon 10.9 HE</Title>
-    <Version>10.9.15</Version>
+    <Title>.NET 8/10 command line app/dotnet tool to run XSLT 3.0 using Saxon 10.9 HE</Title>
+    <Version>10.9.20-pre1</Version>
     <Authors>Martin Honnen</Authors>
-    <Description>This is a .NET 8/9 command line app/dotnet tool to run XSLT 3.0 with Saxon 10.9 HE.</Description>
+    <Description>This is a .NET 8/10 command line app/dotnet tool to run XSLT 3.0 with Saxon 10.9 HE.</Description>
     <Copyright>Copyright (c) 2025 Martin Honnen</Copyright>
-    <PackageReleaseNotes>This is the initial release with a dual package for .NET 8 and .NET 9 with the new IKVM 8.13.0/Maven 1.9.3 using the latest build u462-b08 of the Java 8/1.8 JDK</PackageReleaseNotes>
+    <PackageReleaseNotes>This is the initial release of a dual package for .NET 8 and .NET 10 with the new IKVM 8.15.0/Maven 1.10.0 using the latest build u472-b08 of the Java 8/1.8 JDK</PackageReleaseNotes>
     <PackAsTool>True</PackAsTool>
     <ToolCommandName>SaxonHE10NetXslt</ToolCommandName>
     <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
