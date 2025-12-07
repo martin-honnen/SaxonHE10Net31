@@ -6,12 +6,12 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Saxon HE 10.9 .NET 8/10  API</Title>
-    <Version>10.9.20-pre1</Version>
+    <Version>10.9.20</Version>
     <Authors>Martin Honnen</Authors>
     <Description>This is a port of the Saxon 10.9 .NET framework API to NET 8 and .NET 10.</Description>
     <Copyright>Copyright (c) 2025 Martin Honnen</Copyright>
     <PackageTags>XSLT;XSLT-3.0;XQuery;XQuery-3.1;XPath;XPath-3.1;XML;JSON;Transformation</PackageTags>
-    <PackageReleaseNotes>This is the initial release of a package for .NET 8 and .NET 10 with the new IKVM 8.15.0/Maven 1.10.0 using the latest build 8u472-b08 of the Java 8/1.8 JDK</PackageReleaseNotes>
+    <PackageReleaseNotes>This is the initial release of a package for .NET 8 and .NET 10 with the new IKVM 8.15.0/Maven 1.11.0 using the latest build 8u472-b08 of the Java 8/1.8 JDK</PackageReleaseNotes>
     <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -20,7 +20,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-	  <PackageReference Include="IKVM.Maven.Sdk" Version="1.10.0" />
+	  <PackageReference Include="IKVM.Maven.Sdk" Version="1.11.0">
+	    <PrivateAssets>all</PrivateAssets>
+	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
 	  <MavenReference Include="net.sf.saxon:Saxon-HE" Version="10.9" />
   </ItemGroup>
 	
