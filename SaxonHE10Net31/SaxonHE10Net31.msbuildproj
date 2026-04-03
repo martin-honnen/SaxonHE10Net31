@@ -1,13 +1,13 @@
 ﻿<Project Sdk="IKVM.NET.Sdk/8.15.0">
     <PropertyGroup>
-        <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
+        <TargetFrameworks>net8.0;net10.0;net481</TargetFrameworks>
         <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-        <Title>IKVM cross-compiled .NET 8/10 class library of Saxon HE 10.9</Title>
-        <Version>10.9.20</Version>
+        <Title>IKVM cross-compiled .NET 8/10 and .NET framework 4.8.1 class library of Saxon HE 10.9</Title>
+        <Version>10.9.21</Version>
         <Authors>Martin Honnen</Authors>
-        <Description>This is the result of IKVM cross-compiling the Saxon HE 10.9 Java software to .NET 8 and .NET 10.</Description>
-        <Copyright>Copyright (c) 2025 Martin Honnen</Copyright>
-        <PackageReleaseNotes>This is the initial release packaged for .NET 8 and .NET 10 with the new IKVM 8.15.0/Maven 1.11.0 based on the latest u472-b08 build of the Java 8/1.8 JDK</PackageReleaseNotes>
+        <Description>This is the result of IKVM cross-compiling the Saxon HE 10.9 Java software to .NET 8 and .NET 10 and .NET framework 4.8.1</Description>
+        <Copyright>Copyright (c) 2026 Martin Honnen</Copyright>
+        <PackageReleaseNotes>This is the initial release packaged for .NET 8 and .NET 10 and .NET framework 4.8.1 with the new IKVM 8.15.0/Maven 1.11.0 based on the latest u472-b08 build of the Java 8/1.8 JDK</PackageReleaseNotes>
         <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
         <PackageTags>XSLT;XSLT-3.0;XQuery;XQuery-3.1;XML;XPath;XPath-3.1;JSON;transformation</PackageTags>
         <PackageProjectUrl>https://github.com/martin-honnen/SaxonHE10Net31/tree/master/SaxonHE10Net31</PackageProjectUrl>

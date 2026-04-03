@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
+    <TargetFrameworks>net8.0;net10.0;net481</TargetFrameworks>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,7 +10,7 @@
 	  <PrivateAssets>all</PrivateAssets>
 	  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 	</PackageReference>
-	<PackageReference Include="SaxonHE10Net31Api" Version="10.9.20" />
+	<PackageReference Include="SaxonHE10Net31Api" Version="10.9.21" />
 	<MavenReference Include="net.sf.saxon:Saxon-HE" Version="10.9" />
   </ItemGroup>
 
